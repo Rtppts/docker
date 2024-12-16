@@ -1,5 +1,5 @@
 FROM golang:1.22-alpine
-WORKDIR /go/src/github.com/tanapon395/sa-67-example
+WORKDIR /go/src/github.com/*----เปลี่ยน----***tanapon395***/sa-67-example  
 COPY . .
 RUN apk add build-base
 RUN go mod tidy
